@@ -44,6 +44,7 @@ const GradientButton = props => {
   const {gradientBtn, alignSelf} = styles;
   return (
     <View
+      testID={title}
       style={[
         CommonStyle.shadow,
         alignSelf,
